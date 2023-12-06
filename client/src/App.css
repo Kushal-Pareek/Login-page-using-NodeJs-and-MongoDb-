@@ -1,0 +1,33 @@
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.user-table tr:nth-child(even) {
+  text-align: center;
+  background-color: #ac9f9f;
+}
+
+.user-table tr:nth-child(odd) {
+  text-align: center;
+  background-color: #e38787;
+}
+
+.user-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.center-text {
+  text-align: center;
+  color: rgb(206, 29, 29);
+}

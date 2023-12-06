@@ -11,7 +11,7 @@ exports.createUser = async ({ firstname, middlename, lastname, password, email }
   
       const user = { fullName, email, password: hashedPassword };
       
-      return await userRepository.saveUser(user);
+      return userRepository.saveUser(user);
     } 
     catch (error) {
       console.error('Error in createUser:', error);
